@@ -1,0 +1,16 @@
+{
+	"name": "citrine-backend",
+	"version": "1.0.0",
+	"description": "Simple API endpoint that converts units to SI",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon index.js"
+	},
+	"author": "Blake Schwartz",
+	"license": "ISC",
+	"dependencies": {
+		"express": "4.17.1",
+		"query-string": "6.8.3"
+	}
+}
